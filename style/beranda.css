@@ -12,6 +12,16 @@
         padding: 10px;
     }
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1 1 300px; /* Elemen akan memiliki lebar minimal 300px, namun bisa menyesuaikan */
+    margin: 10px;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
